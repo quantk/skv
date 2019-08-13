@@ -1,0 +1,28 @@
+{
+  "name": "quantick/skv",
+  "description": "Simple key-value implementation with PHP",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander",
+      "email": "mail@kladov.xyz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skv\\": "./src",
+      "Tests\\": "./tests"
+    }
+  },
+  "require": {
+    "amphp/socket": "^1.0",
+    "league/uri-schemes": "^1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3",
+    "vimeo/psalm": "^3.4",
+    "amphp/phpunit-util": "^1.1",
+    "sempro/phpunit-pretty-print": "^1.1"
+  }
+}
